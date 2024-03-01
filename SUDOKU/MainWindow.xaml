@@ -7,89 +7,94 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-<Border x:Name="SudokuTable">
+        <Label>Select difficulty:</Label>
+        <RadioButton>Easy</RadioButton>
+        <RadioButton>Medium</RadioButton>
+        <RadioButton>Hard</RadioButton>
+        <RadioButton>Impossible</RadioButton>
+        <Border x:Name="SudokuTable">
     <UniformGrid Height="180" Width="180">
-       <TextBox x:Name="p11" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p12" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p13" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p14" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p15" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p16" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p17" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p18" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="p19" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p21" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p22" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p23" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p24" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p25" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p26" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p27" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p28" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p29" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p31" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p32" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p33" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p34" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p35" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p36" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p37" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p38" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p39" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p41" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p42" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p43" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p44" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p45" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p46" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p47" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p48" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p49" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p51" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p52" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p53" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p54" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p55" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p56" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p57" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p58" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p59" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p61" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p62" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p63" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p64" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p65" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p66" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p67" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p68" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p69" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p71" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p72" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p73" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p74" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p75" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p76" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p77" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p78" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p79" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p81" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p82" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p83" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p84" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p85" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p86" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p87" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p88" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p89" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p91" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p92" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p93" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p94" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p95" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p96" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p97" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p98" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="p99" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P11" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P12" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P13" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P14" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P15" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P16" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P17" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P18" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="P19" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P21" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P22" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P23" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P24" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P25" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P26" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P27" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P28" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P29" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P31" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P32" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P33" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P34" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P35" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P36" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P37" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P38" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P39" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P41" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P42" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P43" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P44" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P45" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P46" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P47" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P48" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P49" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P51" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P52" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P53" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P54" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P55" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P56" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P57" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P58" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P59" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P61" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P62" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P63" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P64" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P65" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P66" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P67" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P68" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P69" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P71" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P72" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P73" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P74" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P75" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P76" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P77" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P78" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P79" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P81" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P82" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P83" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P84" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P85" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P86" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P87" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P88" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P89" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P91" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P92" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P93" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P94" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P95" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P96" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P97" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P98" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="P99" Background="LightGray" Height="20" Width="20"></TextBox>
   
        
     </UniformGrid>

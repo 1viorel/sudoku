@@ -78,7 +78,7 @@ public partial class MainWindow : Window
         {
             for (int j = 0; j < 9; j++)
             {
-                TextBox textBox = (TextBox)FindName("p" + (i + 1) + (j + 1));
+                TextBox textBox = (TextBox)FindName("P" + (i + 1) + (j + 1));
                 textBox.Text = generator.sudoku[i, j].ToString();
             }
         }
