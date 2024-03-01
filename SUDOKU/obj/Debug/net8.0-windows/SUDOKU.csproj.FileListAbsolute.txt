@@ -18,3 +18,4 @@ C:\Users\Viorel\RiderProjects\SUDOKU\SUDOKU\obj\Debug\net8.0-windows\refint\SUDO
 C:\Users\Viorel\RiderProjects\SUDOKU\SUDOKU\obj\Debug\net8.0-windows\SUDOKU.pdb
 C:\Users\Viorel\RiderProjects\SUDOKU\SUDOKU\obj\Debug\net8.0-windows\SUDOKU.genruntimeconfig.cache
 C:\Users\Viorel\RiderProjects\SUDOKU\SUDOKU\obj\Debug\net8.0-windows\ref\SUDOKU.dll
+C:\Users\Viorel\RiderProjects\SUDOKU\SUDOKU\obj\Debug\net8.0-windows\SUDOKU.sourcelink.json

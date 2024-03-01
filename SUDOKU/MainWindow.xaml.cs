@@ -19,5 +19,20 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        GenerateSudoku();
+    }
+    
+    public int[,] GenerateSudoku()
+    {
+        int[,] sudoku = new int[9, 9];
+        for (int i = 1; i <= 9; i++)
+        {
+            for (int j = 1; j <= 9; j++)
+            {
+                TextBox textBox = (TextBox)FindName("p" + i + j);
+                textBox.Text = "7";
+            }
+        }
+        return sudoku;
     }
 }
