@@ -18,88 +18,88 @@
             <Button Width="100" HorizontalAlignment="Left" Click="ButtonBase_OnClick">Generate</Button>
         </StackPanel>
         <Border x:Name="SudokuTable">
-    <UniformGrid Height="180" Width="180">
-       <TextBox x:Name="P11" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P12" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P13" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P14" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P15" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P16" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P17" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P18" Background="LightGray" Height="20" Width="20"></TextBox>
-       <TextBox x:Name="P19" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P21" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P22" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P23" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P24" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P25" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P26" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P27" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P28" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P29" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P31" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P32" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P33" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P34" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P35" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P36" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P37" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P38" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P39" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P41" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P42" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P43" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P44" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P45" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P46" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P47" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P48" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P49" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P51" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P52" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P53" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P54" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P55" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P56" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P57" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P58" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P59" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P61" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P62" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P63" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P64" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P65" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P66" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P67" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P68" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P69" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P71" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P72" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P73" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P74" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P75" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P76" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P77" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P78" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P79" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P81" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P82" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P83" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P84" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P85" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P86" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P87" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P88" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P89" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P91" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P92" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P93" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P94" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P95" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P96" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P97" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P98" Background="LightGray" Height="20" Width="20"></TextBox>
-        <TextBox x:Name="P99" Background="LightGray" Height="20" Width="20"></TextBox>
+    <UniformGrid Height="450" Width="450">
+       <TextBox x:Name="P11" FontSize="40" Height="50" Width="50" TextAlignment="Center" Background="LightGray" ></TextBox>
+       <TextBox x:Name="P12" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P13" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P14" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P15" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P16" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P17" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P18" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+       <TextBox x:Name="P19" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P21" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P22" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P23" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P24" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P25" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P26" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P27" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P28" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P29" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center"></TextBox>
+        <TextBox x:Name="P31" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P32" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P33" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P34" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P35" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P36" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P37" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P38" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P39" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P41" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P42" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P43" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P44" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P45" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P46" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P47" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P48" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P49" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P51" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P52" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P53" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P54" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P55" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P56" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P57" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P58" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P59" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P61" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P62" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P63" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P64" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P65" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P66" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P67" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P68" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P69" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P71" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P72" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P73" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P74" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P75" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P76" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P77" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P78" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P79" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P81" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P82" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P83" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P84" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P85" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P86" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P87" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P88" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P89" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P91" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P92" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P93" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P94" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P95" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P96" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P97" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P98" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
+        <TextBox x:Name="P99" Background="LightGray" FontSize="40" Height="50" Width="50" TextAlignment="Center" ></TextBox>
   
        
     </UniformGrid>

@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SUDOKU/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/.gitignore" afterDir="false" />
+    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="improvements">
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.pdb" afterDir="false" />
@@ -35,8 +33,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/obj/Debug/net8.0-windows/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/obj/Debug/net8.0-windows/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -99,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709304965888</updated>
       <workItem from="1709304967212" duration="4689000" />
-      <workItem from="1709309702879" duration="1347000" />
+      <workItem from="1709309702879" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -157,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709309553636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="improvements">
+      <option name="closed" value="true" />
+      <created>1709311116668</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709311116668</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +194,7 @@
     <MESSAGE value="Added .gitignore" />
     <MESSAGE value="damn, the repo is now a mess...well" />
     <MESSAGE value="oh ffs" />
-    <option name="LAST_COMMIT_MESSAGE" value="oh ffs" />
+    <MESSAGE value="improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvements" />
   </component>
 </project>
