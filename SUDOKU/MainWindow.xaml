@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel>
         <Label>Select difficulty:</Label>
-        <RadioButton>Easy</RadioButton>
-        <RadioButton>Medium</RadioButton>
-        <RadioButton>Hard</RadioButton>
-        <RadioButton>Impossible</RadioButton>
+            <StackPanel>
+        <RadioButton x:Name="EasySel">Easy</RadioButton>
+        <RadioButton x:Name="MediumSel">Medium</RadioButton>
+        <RadioButton x:Name="HardSel">Hard</RadioButton>
+        <RadioButton x:Name="ImpSel">Impossible(Might be actually impossible, there is no verification xd)</RadioButton>
+            </StackPanel>
+            <Button Width="100" HorizontalAlignment="Left" Click="ButtonBase_OnClick">Generate</Button>
+        </StackPanel>
         <Border x:Name="SudokuTable">
     <UniformGrid Height="180" Width="180">
        <TextBox x:Name="P11" Background="LightGray" Height="20" Width="20"></TextBox>

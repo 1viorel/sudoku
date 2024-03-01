@@ -15,26 +15,26 @@ namespace SUDOKU;
 {
     public int[,] sudoku;
 
-    public int[,] GenerateSudoku()
+    public int[,] GenerateSudoku(int diff)
     {
         sudoku = new int[9, 9];
         FillSudoku();
-        RemoveNumbers();
+        RemoveNumbers(diff);
         return sudoku;
     }
 
     private void FillSudoku()
     {
         int[,] initialPattern = {
-            {5, 3, 0, 0, 7, 0, 0, 0, 0},
-            {6, 0, 0, 1, 9, 5, 0, 0, 0},
-            {0, 9, 8, 0, 0, 0, 0, 6, 0},
-            {8, 0, 0, 0, 6, 0, 0, 0, 3},
-            {4, 0, 0, 8, 0, 3, 0, 0, 1},
-            {7, 0, 0, 0, 2, 0, 0, 0, 6},
-            {0, 6, 0, 0, 0, 0, 2, 8, 0},
-            {0, 0, 0, 4, 1, 9, 0, 0, 5},
-            {0, 0, 0, 0, 8, 0, 0, 7, 9}
+            {7, 9, 5, 6, 2, 1, 8, 4, 3},
+            {1, 2, 3, 4, 8, 9, 5, 6, 7},
+            {6, 4, 8, 3, 7, 5, 9, 1, 2},
+            {8, 7, 2, 5, 1, 4, 3, 9, 6},
+            {9, 5, 4, 8, 3, 6, 2, 7, 1},
+            {3, 1, 6, 2, 9, 7, 4, 5, 8},
+            {4, 8, 1, 7, 5, 3, 6, 2, 9},
+            {2, 6, 7, 9, 4, 8, 1, 3, 5},
+            {5, 3, 9, 1, 6, 2, 7, 8, 4}
         };
 
         for (int i = 0; i < 9; i++)
@@ -46,9 +46,9 @@ namespace SUDOKU;
         }
     }
 
-    private void RemoveNumbers()
+    private void RemoveNumbers(int DIFFICULTY)
     {
-        const int DIFFICULTY = 40;
+       
         
         Random random = new Random();
 
@@ -67,11 +67,31 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        SudokuGenerator generator = new SudokuGenerator();
-        int[,] sudoku = generator.GenerateSudoku();
-        Transfer(generator);
     }
-    
+
+    private int Difficulty()
+    {
+        RadioButton easy = (RadioButton)FindName("EasySel");
+        RadioButton medium = (RadioButton)FindName("MediumSel");
+        RadioButton hard = (RadioButton)FindName("HardSel");
+        RadioButton impossible = (RadioButton)FindName("ImposibleSel");
+        if (easy.IsChecked == true)
+        {
+            return 15;
+        }
+        else if (medium.IsChecked == true)
+        {
+            return 30;
+        }
+        else if (hard.IsChecked == true)
+        {
+            return 45;
+        }
+        else 
+        {
+            return 80;
+        }
+    }
     public void Transfer(SudokuGenerator generator)
     {
         for (int i = 0; i < 9; i++)
@@ -79,10 +99,22 @@ public partial class MainWindow : Window
             for (int j = 0; j < 9; j++)
             {
                 TextBox textBox = (TextBox)FindName("P" + (i + 1) + (j + 1));
-                textBox.Text = generator.sudoku[i, j].ToString();
-                Console.Write("test");
+                if ((generator.sudoku[i,j]) == 0)
+                {
+                    textBox.Text = "";
+                }
+                else {
+                    textBox.Text = generator.sudoku[i, j].ToString();
+                }
             }
         }
     }
 
+    private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+    {
+        int diff = Difficulty();
+        SudokuGenerator generator = new SudokuGenerator();
+        int[,] sudoku = generator.GenerateSudoku(diff);
+        Transfer(generator);
+    }
 }
