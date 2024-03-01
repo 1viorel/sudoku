@@ -7,17 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="improvements">
-      <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" afterDir="false" />
+    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="UI improvements">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/MainWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
@@ -101,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709304965888</updated>
       <workItem from="1709304967212" duration="4689000" />
-      <workItem from="1709309702879" duration="1919000" />
+      <workItem from="1709309702879" duration="2875000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -167,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709311116668</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="UI improvements">
+      <option name="closed" value="true" />
+      <created>1709311846652</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709311846652</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +201,7 @@
     <MESSAGE value="damn, the repo is now a mess...well" />
     <MESSAGE value="oh ffs" />
     <MESSAGE value="improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="improvements" />
+    <MESSAGE value="UI improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI improvements" />
   </component>
 </project>
