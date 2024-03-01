@@ -80,6 +80,7 @@ public partial class MainWindow : Window
             {
                 TextBox textBox = (TextBox)FindName("P" + (i + 1) + (j + 1));
                 textBox.Text = generator.sudoku[i, j].ToString();
+                Console.Write("test");
             }
         }
     }
