@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SUDOKU")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fd092e4cf1df0de22b31b5a4fc85fef53399516")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de92f43f7553a3265a7a8bc84e38f403e2d4a2a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SUDOKU")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SUDOKU")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
