@@ -1,0 +1,98 @@
+﻿<Window x:Class="SUDOKU.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SUDOKU"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+<Border x:Name="SudokuTable">
+    <UniformGrid Height="180" Width="180">
+       <TextBox x:Name="11" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="12" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="13" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="14" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="15" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="16" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="17" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="18" Background="LightGray" Height="20" Width="20"></TextBox>
+       <TextBox x:Name="19" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="21" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="22" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="23" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="24" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="25" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="26" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="27" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="28" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="29" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="31" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="32" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="33" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="34" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="35" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="36" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="37" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="38" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="39" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="41" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="42" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="43" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="44" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="45" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="46" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="47" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="48" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="49" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="51" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="52" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="53" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="54" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="55" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="56" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="57" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="58" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="59" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="61" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="62" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="63" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="64" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="65" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="66" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="67" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="68" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="69" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="71" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="72" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="73" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="74" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="75" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="76" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="77" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="78" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="79" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="81" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="82" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="83" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="84" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="85" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="86" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="87" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="88" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="89" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="91" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="92" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="93" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="94" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="95" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="96" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="97" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="98" Background="LightGray" Height="20" Width="20"></TextBox>
+        <TextBox x:Name="99" Background="LightGray" Height="20" Width="20"></TextBox>
+  
+       
+    </UniformGrid>
+</Border>
+    </Grid>
+</Window>
