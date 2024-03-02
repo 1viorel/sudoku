@@ -1,14 +1,6 @@
-﻿using System.Printing;
-using System.Text;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace SUDOKU;
 
@@ -131,12 +123,12 @@ public class SudokuGenerator
         row = col = -1; // No empty cell found
         return false;
     }
-    private void RemoveNumbers(int DIFFICULTY)
+    private void RemoveNumbers(int difficulty)
     {
         
         Random random = new Random();
 
-        for (int i = 0; i < DIFFICULTY; i++)
+        for (int i = 0; i < difficulty; i++)
         {
             int row = random.Next(9);
             int col = random.Next(9);
@@ -147,8 +139,9 @@ public class SudokuGenerator
     }
 }
 
-public partial class MainWindow : Window
-{  SudokuGenerator generator = new SudokuGenerator();
+public partial class MainWindow 
+{  
+    SudokuGenerator _generator = new SudokuGenerator();
     
     public MainWindow()
     {
@@ -200,7 +193,7 @@ public partial class MainWindow : Window
         }
     }
     
-    private void printSudoku(int[,] sudoku)
+    private void PrintSudoku(int[,] sudoku)
     {
         for (int i = 0; i < 9; i++)
         {
@@ -216,9 +209,9 @@ public partial class MainWindow : Window
     {
         int diff = Difficulty();
       
-        int[,] sudoku = generator.GenerateSudoku();
-        int[,] puzzle = generator.MakePuzzle(diff);
-        Transfer(generator);
+        int[,] sudoku = _generator.GenerateSudoku();
+        int[,] puzzle = _generator.MakePuzzle(diff);
+        Transfer(_generator);
     }
     private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
     {
@@ -240,7 +233,7 @@ public partial class MainWindow : Window
     private void WinStatus()
     {
         int[,] playerGrid =  GetPlayerGrid();
-        if (AreGridsEqual(playerGrid, generator.sudoku))
+        if (AreGridsEqual(playerGrid, _generator.sudoku))
         {
             MessageBox.Show("You won!");
         }
