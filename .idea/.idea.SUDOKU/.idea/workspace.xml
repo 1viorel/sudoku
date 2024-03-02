@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="Better sudoku algorithm">
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" afterDir="false" />
@@ -105,7 +104,7 @@
       <workItem from="1709304967212" duration="4689000" />
       <workItem from="1709309702879" duration="3049000" />
       <workItem from="1709367582403" duration="725000" />
-      <workItem from="1709376136292" duration="339000" />
+      <workItem from="1709376136292" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -187,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709312631232</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Better sudoku algorithm">
+      <option name="closed" value="true" />
+      <created>1709376491070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709376491070</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +224,7 @@
     <MESSAGE value="improvements" />
     <MESSAGE value="UI improvements" />
     <MESSAGE value="im done for today" />
-    <option name="LAST_COMMIT_MESSAGE" value="im done for today" />
+    <MESSAGE value="Better sudoku algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better sudoku algorithm" />
   </component>
 </project>

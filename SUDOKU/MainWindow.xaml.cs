@@ -206,4 +206,31 @@ public partial class MainWindow : Window
         int[,] sudoku = generator.GenerateSudoku(diff);
         Transfer(generator);
     }
+    private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+    {
+        TextBox textBox = (TextBox)sender;
+        
+        if (!IsNumeric(e.Text))
+        {
+            e.Handled = true; // Ignore non-numeric input
+        }
+        
+        if (textBox.Text.Length + e.Text.Length > 1)
+        {
+            e.Handled = true; // Ignore input if it exceeds one character
+        }
+    }
+
+    private bool IsNumeric(string text)
+    {
+        foreach (char c in text)
+        {
+            if (!char.IsDigit(c))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
