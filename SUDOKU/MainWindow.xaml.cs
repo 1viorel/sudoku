@@ -303,7 +303,10 @@ public partial class MainWindow
         int[,] playerGrid =  GetPlayerGrid();
         if (AreGridsEqual(playerGrid, _generator.sudoku))
         {
-            MessageBox.Show("You won!");
+            timer.Stop();
+            MessageBox.Show("You won! Your time is " + timeElapsed.ToString(@"hh\:mm\:ss"));
+           
+            
         }
         /*Console.Out.WriteLine("Solution:");
         printSudoku(generator.sudoku);
