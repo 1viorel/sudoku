@@ -16,6 +16,7 @@
         <RadioButton x:Name="ImpossibleSel">Impossible</RadioButton>
             </StackPanel>
             <Button Width="150" Margin="0 10 " FontWeight="SemiBold" FontSize="16" HorizontalAlignment="Left" Click="ButtonBase_OnClick">Generate</Button>
+            <TextBlock x:Name="TimerTextBlock" FontSize="20" TextAlignment="Center"  Margin="0 10 " HorizontalAlignment="Left" ></TextBlock>
         </StackPanel>
         <Border x:Name="SudokuTable" BorderBrush="Black" BorderThickness="2" Height="454" Width="454">
     <UniformGrid Height="450" Width="450">

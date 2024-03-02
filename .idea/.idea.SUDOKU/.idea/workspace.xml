@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="ux improvements">
+    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" afterDir="false" />
@@ -35,8 +35,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Viorel/RiderProjects/SUDOKU/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -48,28 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.SUDOKU.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.SUDOKU.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Viorel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Viorel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Viorel\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Viorel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Viorel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Viorel\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SUDOKU" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -101,7 +103,8 @@
       <workItem from="1709304967212" duration="4689000" />
       <workItem from="1709309702879" duration="3049000" />
       <workItem from="1709367582403" duration="725000" />
-      <workItem from="1709376136292" duration="11064000" />
+      <workItem from="1709376136292" duration="11487000" />
+      <workItem from="1709389594763" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -247,7 +250,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709388661779</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Arrow navigation">
+      <option name="closed" value="true" />
+      <created>1709389114075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709389114075</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ui fix">
+      <option name="closed" value="true" />
+      <created>1709389199628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709389199628</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +302,9 @@
     <MESSAGE value="Fixed some function names and other warnings" />
     <MESSAGE value="More ui improvements" />
     <MESSAGE value="ux improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="ux improvements" />
+    <MESSAGE value="Arrow navigation" />
+    <MESSAGE value="ui fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

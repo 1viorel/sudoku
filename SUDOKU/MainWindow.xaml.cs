@@ -2,6 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Threading;
 
 namespace SUDOKU;
 
@@ -143,12 +144,19 @@ public class SudokuGenerator
 public partial class MainWindow 
 {  
     SudokuGenerator _generator = new SudokuGenerator();
-    
+    private DispatcherTimer timer;
+    private TimeSpan timeElapsed;
     public MainWindow()
     {
         InitializeComponent();
     }
 
+   
+    private void Timer_Tick(object sender, EventArgs e)
+    {
+        timeElapsed = timeElapsed.Add(TimeSpan.FromSeconds(1));
+        TimerTextBlock.Text = timeElapsed.ToString(@"hh\:mm\:ss");
+    }
     private int Difficulty()
     {
         RadioButton easy = (RadioButton)FindName("EasySel");
@@ -230,6 +238,7 @@ public partial class MainWindow
         
         string nextTextBoxName = "P" + nextRow + nextColumn;
         
+        
         TextBox nextTextBox = (TextBox)this.FindName(nextTextBoxName);
         if (nextTextBox != null)
         {
@@ -256,6 +265,20 @@ public partial class MainWindow
         int[,] sudoku = _generator.GenerateSudoku();
         int[,] puzzle = _generator.MakePuzzle(diff);
         Transfer(_generator);
+        
+        //timer
+        if (timer!=null) {
+            timer.Stop();
+        }
+       
+        timer = new DispatcherTimer();
+        timer.Interval = TimeSpan.FromSeconds(1);
+        timer.Tick += Timer_Tick;
+
+       
+        timeElapsed = TimeSpan.Zero;
+        
+        timer.Start();
     }
     private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
     {
