@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-        <Label>Select difficulty:</Label>
+        <StackPanel Margin="200" VerticalAlignment="Center">
+        <Label FontSize="20" FontWeight="Bold">Select difficulty:</Label>
             <StackPanel>
         <RadioButton x:Name="EasySel">Easy</RadioButton>
         <RadioButton x:Name="MediumSel">Medium</RadioButton>
         <RadioButton x:Name="HardSel">Hard</RadioButton>
         <RadioButton x:Name="ImpossibleSel">Impossible</RadioButton>
             </StackPanel>
-            <Button Width="100" HorizontalAlignment="Left" Click="ButtonBase_OnClick">Generate</Button>
+            <Button Width="150" Margin="0 10 " FontWeight="SemiBold" FontSize="16" HorizontalAlignment="Left" Click="ButtonBase_OnClick">Generate</Button>
         </StackPanel>
-        <Border x:Name="SudokuTable">
+        <Border x:Name="SudokuTable" BorderBrush="Black" BorderThickness="2" Height="450" Width="450">
     <UniformGrid Height="450" Width="450">
        <TextBox x:Name="P11" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" Background="LightGray" PreviewTextInput="TextBox_PreviewTextInput" ></TextBox>
        <TextBox x:Name="P12" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
