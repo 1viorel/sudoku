@@ -26,39 +26,50 @@ public class SudokuGenerator
     {
         int row, col;
 
-        // Find an empty cell
         if (!FindEmptyCell(out row, out col))
         {
-            // If there are no empty cells, the Sudoku is solved
             return true;
         }
 
-        // Try filling the empty cell with a valid number
-        for (int num = 1; num <= 9; num++)
+        List<int> numbersToTry = GetShuffledNumbers(); // Shuffle numbers from 1 to 9
+
+        foreach (int num in numbersToTry)
         {
             if (IsSafe(row, col, num))
             {
-                // Place the number if it's safe
                 sudoku[row, col] = num;
 
-                // Recursively try to fill the rest of the Sudoku
                 if (SolveSudoku())
                 {
                     return true;
                 }
 
-                // If placing the number leads to an invalid solution, backtrack
                 sudoku[row, col] = 0;
             }
         }
 
-        // If no number can be placed, backtrack
         return false;
     }
 
+    private List<int> GetShuffledNumbers()
+    {
+        List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        Random random = new Random();
+
+        for (int i = numbers.Count - 1; i > 0; i--)
+        {
+            int j = random.Next(0, i + 1);
+            int temp = numbers[i];
+            numbers[i] = numbers[j];
+            numbers[j] = temp;
+        }
+
+        return numbers;
+    }
+
+
     private bool IsSafe(int row, int col, int num)
     {
-        // Check if 'num' is not already in the current row, column, and 3x3 subgrid
         return !UsedInRow(row, num) && !UsedInColumn(col, num) && !UsedInSubgrid(row - row % 3, col - col % 3, num);
     }
 
@@ -148,7 +159,7 @@ public partial class MainWindow : Window
         RadioButton easy = (RadioButton)FindName("EasySel");
         RadioButton medium = (RadioButton)FindName("MediumSel");
         RadioButton hard = (RadioButton)FindName("HardSel");
-        RadioButton impossible = (RadioButton)FindName("ImposibleSel");
+        RadioButton impossible = (RadioButton)FindName("ImpossibleSel");
         if (easy.IsChecked == true)
         {
             return 15;
@@ -161,9 +172,13 @@ public partial class MainWindow : Window
         {
             return 45;
         }
-        else 
+        else  if (impossible.IsChecked == true)
         {
             return 80;
+        }
+        else
+        {
+            return 0;
         }
     }
     public void Transfer(SudokuGenerator generator)

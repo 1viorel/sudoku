@@ -13,7 +13,7 @@
         <RadioButton x:Name="EasySel">Easy</RadioButton>
         <RadioButton x:Name="MediumSel">Medium</RadioButton>
         <RadioButton x:Name="HardSel">Hard</RadioButton>
-        <RadioButton x:Name="ImpSel">Impossible(Might be actually impossible, there is no verification xd)</RadioButton>
+        <RadioButton x:Name="ImpossibleSel">Impossible(Might be actually impossible, there is no verification xd)</RadioButton>
             </StackPanel>
             <Button Width="100" HorizontalAlignment="Left" Click="ButtonBase_OnClick">Generate</Button>
         </StackPanel>
