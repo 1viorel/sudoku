@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="More ui improvements">
+    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="ux improvements">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" afterDir="false" />
@@ -101,7 +101,7 @@
       <workItem from="1709304967212" duration="4689000" />
       <workItem from="1709309702879" duration="3049000" />
       <workItem from="1709367582403" duration="725000" />
-      <workItem from="1709376136292" duration="10376000" />
+      <workItem from="1709376136292" duration="11064000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -239,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709385683358</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ux improvements">
+      <option name="closed" value="true" />
+      <created>1709388661779</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709388661779</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +282,8 @@
     <MESSAGE value="UI improvements" />
     <MESSAGE value="Fixed some function names and other warnings" />
     <MESSAGE value="More ui improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="More ui improvements" />
+    <MESSAGE value="ux improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="ux improvements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

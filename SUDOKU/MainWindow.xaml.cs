@@ -202,40 +202,38 @@ public partial class MainWindow
     {
         TextBox currentTextBox = (TextBox)sender;
 
-        // Determine the current row and column based on the current TextBox
+        
         int currentRow = int.Parse(currentTextBox.Name[1].ToString());
         int currentColumn = int.Parse(currentTextBox.Name[2].ToString());
 
-        // Initialize variables for the next row and column
+       
         int nextRow = currentRow;
         int nextColumn = currentColumn;
 
-        // Update nextRow and nextColumn based on the arrow key pressed
+        
         switch (e.Key)
         {
             case Key.Down:
-                nextRow = (currentRow % 10) + 1; // Increment the row
+                nextRow = (currentRow % 10) + 1; 
                 break;
             case Key.Up:
-                nextRow = ((currentRow - 2 + 10) % 10) + 1; // Decrement the row
+                nextRow = ((currentRow - 2 + 10) % 10) + 1; 
                 break;
             case Key.Left:
-                nextColumn = ((currentColumn - 2 + 10) % 10) + 1; // Decrement the column
+                nextColumn = ((currentColumn - 2 + 10) % 10) + 1; 
                 break;
             case Key.Right:
-                nextColumn = (currentColumn % 10) + 1; // Increment the column
+                nextColumn = (currentColumn % 10) + 1; 
                 break;
         }
 
-        // Create the name of the next TextBox
+        
         string nextTextBoxName = "P" + nextRow + nextColumn;
-
-        // Find the next TextBox by name and set focus
+        
         TextBox nextTextBox = (TextBox)this.FindName(nextTextBoxName);
         if (nextTextBox != null)
         {
             nextTextBox.Focus();
-            e.Handled = true; // Handle the event to prevent further processing
         }
     }
     
@@ -261,6 +259,7 @@ public partial class MainWindow
     }
     private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
     {
+       
         TextBox textBox = (TextBox)sender;
         
         if (!IsNumeric(e.Text))
