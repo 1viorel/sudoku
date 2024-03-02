@@ -19,31 +19,31 @@
         </StackPanel>
         <Border x:Name="SudokuTable" BorderBrush="Black" BorderThickness="2" Height="450" Width="450">
     <UniformGrid Height="450" Width="450">
-       <TextBox x:Name="P11" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" Background="LightGray" PreviewTextInput="TextBox_PreviewTextInput" ></TextBox>
-       <TextBox x:Name="P12" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P13" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P14" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P15" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P16" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P17" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P18" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-       <TextBox x:Name="P19" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P21" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P22" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P23" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P24" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P25" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P26" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P27" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P28" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P29" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P31" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P32" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P33" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P34" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P35" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P36" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
-        <TextBox x:Name="P37" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
+        <TextBox x:Name="P11" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" Background="LightGray" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P12" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P13" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P14" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P15" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P16" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P17" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P18" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+       <TextBox x:Name="P19" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P21" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P22" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P23" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P24" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P25" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P26" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P27" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P28" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P29" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P31" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P32" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P33" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P34" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P35" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P36" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        <TextBox x:Name="P37" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
         <TextBox x:Name="P38" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
         <TextBox x:Name="P39" Background="LightGray" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
         <TextBox x:Name="P41" FontSize="36" FontWeight="SemiBold" Height="50" Width="50" TextAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"></TextBox>

@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace SUDOKU;
 
@@ -185,11 +186,56 @@ public partial class MainWindow
                 if ((generator.puzzle[i,j]) == 0)
                 {
                     textBox.Text = "";
+                    textBox.IsReadOnly = false;
+                    textBox.Foreground = Brushes.Black;
+                    
                 }
                 else {
                     textBox.Text = generator.puzzle[i, j].ToString();
+                    textBox.IsReadOnly = true;
+                    textBox.Foreground = Brushes.DarkBlue;
                 }
             }
+        }
+    }
+    private void TextBox_PreviewKeyDown(object sender, KeyEventArgs e)
+    {
+        TextBox currentTextBox = (TextBox)sender;
+
+        // Determine the current row and column based on the current TextBox
+        int currentRow = int.Parse(currentTextBox.Name[1].ToString());
+        int currentColumn = int.Parse(currentTextBox.Name[2].ToString());
+
+        // Initialize variables for the next row and column
+        int nextRow = currentRow;
+        int nextColumn = currentColumn;
+
+        // Update nextRow and nextColumn based on the arrow key pressed
+        switch (e.Key)
+        {
+            case Key.Down:
+                nextRow = (currentRow % 10) + 1; // Increment the row
+                break;
+            case Key.Up:
+                nextRow = ((currentRow - 2 + 10) % 10) + 1; // Decrement the row
+                break;
+            case Key.Left:
+                nextColumn = ((currentColumn - 2 + 10) % 10) + 1; // Decrement the column
+                break;
+            case Key.Right:
+                nextColumn = (currentColumn % 10) + 1; // Increment the column
+                break;
+        }
+
+        // Create the name of the next TextBox
+        string nextTextBoxName = "P" + nextRow + nextColumn;
+
+        // Find the next TextBox by name and set focus
+        TextBox nextTextBox = (TextBox)this.FindName(nextTextBoxName);
+        if (nextTextBox != null)
+        {
+            nextTextBox.Focus();
+            e.Handled = true; // Handle the event to prevent further processing
         }
     }
     
