@@ -242,7 +242,7 @@ public partial class MainWindow : Window
         int[,] playerGrid =  GetPlayerGrid();
         if (AreGridsEqual(playerGrid, generator.sudoku))
         {
-            MessageBox.Show("You win!");
+            MessageBox.Show("You won!");
         }
         /*Console.Out.WriteLine("Solution:");
         printSudoku(generator.sudoku);
