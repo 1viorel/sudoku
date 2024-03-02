@@ -7,7 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="Input validation" />
+    <list default="true" id="13a97098-1aad-42e6-af8b-cdba9cdcb3cd" name="Changes" comment="Input validation">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SUDOKU/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/bin/Debug/net8.0-windows/SUDOKU.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/SUDOKU.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/ref/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/ref/SUDOKU.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/refint/SUDOKU.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SUDOKU/obj/Debug/net8.0-windows/refint/SUDOKU.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +101,7 @@
       <workItem from="1709304967212" duration="4689000" />
       <workItem from="1709309702879" duration="3049000" />
       <workItem from="1709367582403" duration="725000" />
-      <workItem from="1709376136292" duration="1395000" />
+      <workItem from="1709376136292" duration="5938000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -185,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709377521956</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Input validation">
+      <option name="closed" value="true" />
+      <created>1709377571823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709377571823</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
